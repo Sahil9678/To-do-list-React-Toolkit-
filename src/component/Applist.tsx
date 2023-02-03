@@ -1,7 +1,7 @@
 import { Button, TextField } from '@mui/material';
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { addTolist, removeTolist } from '../redux/listSlice';
+import { addTolist } from '../redux/listSlice';
 import { TodolistItem } from './TodolistItem';
 import { v4 as uuidv4 } from 'uuid';
 import './Applist.scss'

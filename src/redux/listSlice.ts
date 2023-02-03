@@ -1,10 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-interface listitem {
-    id: number;
-}
-
-
 const listSlice = createSlice({
     name: 'list',
     initialState: {
